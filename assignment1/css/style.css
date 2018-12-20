@@ -1,0 +1,244 @@
+body {
+
+    margin: 0;
+}
+
+/*---------parallax image------------------ */
+.parallax {
+    background-image: url("../images/parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*------------Header content-----------------*/
+header
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    position: fixed;
+    background-color: rgb(218, 221, 44);
+    border-radius: 5px;
+    width: 100%;
+    
+}
+header nav
+{
+    float: right;
+    padding-right: 20px;
+    line-height: 80px;
+    
+}
+strong
+{
+    color:  rgb(24, 116, 116);
+}
+nav a
+{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(24, 116, 116);
+    display: inline;
+
+    
+}
+a:hover
+{
+    text-decoration: underline;
+    color: rgb(168, 96, 96);
+}
+img
+{
+    padding-right: 500px;
+    height: 75px;
+    width: 65px;
+    background: transparent;
+}
+/*-------------------Hero image----------------------------------*/
+.hero-image {
+    background-image: url("../images/backtppp.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+
+  
+  
+  /*-----------------------------parallax image------------------------------*/
+  .parallax {
+    background-image: url("../images/parallax.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*------------------------css-flex------------------------------*/
+.container
+{
+    padding-top: 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/*---------------------------1st box with use of flex--------------------------*/
+.box1
+{
+    width:21%;
+    border-radius: 3px;
+    height: auto;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: rgb(146, 156, 4);
+    box-sizing: border-box;
+    
+}
+.box1 p
+{
+    text-align: left;
+    font-size: 25px;
+    color:black;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.featured
+{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+padding-top: 10px;
+text-decoration: none;
+}
+.featured a
+{
+    text-decoration: none;
+    color: black;
+}
+/*-------------------2nd box woith the use of flex----------------------------*/
+.box2
+{
+    width:59%;
+    height: auto;
+    border-radius: 3px;
+    margin: 5px;
+    background: rgb(16, 82, 82);
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.box2 h3
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding: 15px;
+}.iconDetails {
+    margin-left:2%;
+   height:300px;
+   width:800px;
+   } 
+   
+   .container2 {
+       width:100%;
+       height:auto;
+       padding:1%;
+       font-size: 20px;
+   }
+   .container2 article
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+ 
+
+/*-----------------Box3--------------------*/
+.box3
+{
+    width:20%;
+    margin-right: 5px;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 5px;
+    height: auto;
+    background: rgb(142, 165, 79);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+
+
+@media screen and (max-width:1200px)
+{
+    .box1
+    {
+        width:30%;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .box2
+    {
+        width:50%;
+    }
+}
+/*----------------------footer-------------------*/
+footer{
+    margin: 0px;
+    height: 70px;
+    width: 100%;
+    margin-top: -16px;
+    background:rgb(218, 221, 44);
+}
+footer p
+{
+    text-align: end;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+    margin: 0;
+    float: left;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.navfoot li{
+    display: inline;
+    float: right;
+} 
